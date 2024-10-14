@@ -1,0 +1,21 @@
+<!-- Counter App -->
+<div class="container">
+  <h1>Counter App</h1>
+  <h2>Count: {{ count }}</h2>
+  <button (click)="increment()">+</button>
+  <button (click)="decrement()">-</button>
+</div>
+
+<!-- Data Binding -->
+<div class="container">
+  <h1>{{ title }}</h1>
+  <input
+    [value]="inputValue"
+    (input)="onInputChange($event)"
+    placeholder="Type something..."
+  />
+  <p>Your input: {{ inputValue }}</p>
+  <button (click)="onButtonClick()">Show Input</button>
+</div>
+
+

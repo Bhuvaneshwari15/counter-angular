@@ -1,0 +1,47 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height */
+  background-color: #f0f0f0; /* Light background */
+  font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2.5rem; /* Main heading size */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Spacing below heading */
+}
+
+h2 {
+  font-size: 2rem; /* Count size */
+  color: #555; /* Medium dark text color */
+  margin-bottom: 30px; /* Spacing below count */
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 30px; /* Padding inside buttons */
+  font-size: 1.5rem; /* Button text size */
+  margin: 15px; /* Spacing between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
